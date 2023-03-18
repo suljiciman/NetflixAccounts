@@ -1,8 +1,14 @@
 
+import Account from './components/account';
+import AccountsPage from './pages/AccountsPage';
 
 function App() {
   return (
-    <h1>Ia</h1>
+   
+
+
+    <AccountsPage/>
+    
   );
 }
 

@@ -1,0 +1,48 @@
+.general{
+   
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+
+.accounts{
+    color: azure;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 100px;
+    list-style: none;
+    gap: 10rem;
+    
+   
+}
+
+
+.profile__btn{
+    color: rgb(56, 56, 56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%; 
+    padding: 10px 20px;
+    font-size: 14px;
+    border-style: inset;
+    margin-left: 43%;
+    margin-top: 13%;
+    cursor: pointer;
+    font-family: Verdana;
+}
+
+.header{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    font-size: 200%;
+    font-family: Verdana;
+    font-weight: 100;
+    font-size: 45px;
+}
