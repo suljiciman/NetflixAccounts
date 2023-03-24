@@ -1,5 +1,4 @@
 .general{
-   
     display: flex;
    justify-content: space-between;
    align-items: center;
@@ -7,21 +6,19 @@
 }
 
 .accounts{
-    color: azure;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    color: rgb(75, 75, 75);
     padding: 10px;
     margin: 100px;
     list-style: none;
     gap: 10rem;
+    font-family: Verdana;
+    font-size:80%;
     
-   
 }
 
 
 .profile__btn{
-    color: rgb(56, 56, 56);
+    color: rgb(75, 75, 75);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,4 +42,25 @@
     font-family: Verdana;
     font-weight: 100;
     font-size: 45px;
+}
+
+.profile__pic{
+    font-size: larger;
+    width: 15%; 
+    padding: 50px 50px;
+    color: blue;
+    border-style: none;
+    cursor: pointer;
+    background-color: aliceblue;
+    margin-left: 35%;
+    margin-top: 20%;
+
+}
+
+.account__container{
+    
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

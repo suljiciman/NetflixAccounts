@@ -1,13 +1,17 @@
 import React from "react";
-import classes from '../components/account.module.css'
+import styles from '../components/account.module.css'
 
-const  Account = () => {
+const  Account = (props) => {
     return (
    
 <div>
 
-    <ul >
-    	<li className ={classes.accounts}>Text</li>
+
+    <ul className={styles.account__container}>     
+    	<li>
+            <button className={styles["profile__pic"]}></button>
+            <h1 className={styles.accounts}>{props.title}</h1>
+        </li>       
     </ul>
     
 </div>

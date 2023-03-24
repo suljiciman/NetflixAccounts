@@ -8,9 +8,10 @@ const AccountsPage = () =>{
         <h1 className={styles.header}>Who's watching?</h1>
 
         <ul className ={styles.general} >
-        <Account />
-        <Account />
-        <Account />
+        
+        <Account title={'Iman'}/>
+        <Account title={'je napokon'}/>
+        <Account title={'nešto uradila'}/>
         </ul>
 
         
